@@ -1,5 +1,8 @@
 version: 1
 cron:
  - name: "cron"
+   # The url the cron will execute. You need to create a POST endpoint with the 
+   # equivalent name that contains the cron job
    url: "/cron"
+   # Run the cron job every minute
    schedule: "*/1 * * * *"
