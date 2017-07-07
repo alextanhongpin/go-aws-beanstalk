@@ -1,1 +1,1 @@
-process_queue: bin/application
+cron: bin/application
